@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "arvoo";
+    src: url(../fonts/Arvo-Bold.ttf);
+}
+*{
+    font-family: "arvoo", sans-serif;
+}
