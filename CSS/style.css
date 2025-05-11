@@ -3,6 +3,11 @@
     src: url(../fonts/Arvo-Bold.ttf);
 }
 
-.nav-link {
-    
+.navbar-toggler-icon {
+    margin-bottom: 4px;
+    background-color: black;
+    color: black;
+    display: block;
+    width: 22px;
+    height: 2px;
 }
