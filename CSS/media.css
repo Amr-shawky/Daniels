@@ -22,13 +22,17 @@
 
     .navbar-expand-lg .navbar-nav {
         flex-direction: row;
-        font-size: 14px;
+        font-size: 15px;
         font-weight: 400;
         margin-left: 60px !important;
     }
 
+
     .navbar-expand-lg .navbar-nav .nav-link {
-        padding-left: 25px !important;
+        padding-left: 26px !important;
+    }
+    .navbar-expand-lg .navbar-nav > :first-child .nav-link {
+        padding-left: 0px !important;
     }
 
 }
