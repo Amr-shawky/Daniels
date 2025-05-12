@@ -3,6 +3,17 @@
     src: url(../fonts/Arvo-Bold.ttf);
 }
 
+@font-face {
+    font-family: "montserrat";
+    src: url(../fonts/Montserrat-Black.ttf);
+}
+
+* {
+    font-family: sans-serif;
+    --bs-navbar-active-color: RGB(17, 17, 17);
+    --bs-navbar-active-color-hover: RGB(17, 17, 17);
+}
+
 .navbar-toggler-icon {
     margin-bottom: 4px;
     background-color: black;
@@ -10,4 +21,28 @@
     display: block;
     width: 22px;
     height: 2px;
+}
+
+.logo {
+    font-family: "montserrat";
+    font-size: 18px;
+    font-weight: 300;
+    color: #000;
+    line-height: 37px;
+    letter-spacing: 2px;
+}
+
+.navbar-expand-lg .navbar-nav a{
+    font-size: 14px;
+    font-weight: 500 !important;
+    color: RGB(17, 17, 17) !important;
+    opacity: 0.9 !important;
+}
+
+#navbarSupportedContent .navbar-nav .nav-link .active {
+    color: RGB(17, 17, 17) !important;
+}
+
+#navbarSupportedContent .navbar-nav .nav-item :hover{
+color: RGB(17, 17, 17) !important;
 }
