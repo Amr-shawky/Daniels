@@ -5,8 +5,14 @@
 
 @font-face {
     font-family: "montserrat";
-    src: url(../fonts/Montserrat-Black.ttf);
+    src: url(../fonts/Montserrat-ExtraBold.ttf);
+    font-weight: 900;
 }
+@font-face {
+    font-family: "montserrat-bold";
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
 
 @font-face {
     font-family: "montserrat-light";
@@ -86,16 +92,15 @@ nav .container {
     font-weight: 800;
     color: #fff;
     line-height: 55px;
-    letter-spacing: 2px;
-    margin: 0 0 10px;
-    margin-bottom: 24px;
+    letter-spacing: 1px;
+    margin: 40px 0 20px;
 }
 
 .header-text span {
     font-family: "montserrat-light";
     font-size: 60px;
     font-weight: 100;
-    padding: 12px 0;
+    padding: 10px 0;
     color: #fff;
     line-height: 72px;
     letter-spacing: 2px;
@@ -120,6 +125,9 @@ nav .container {
 .social-icon{
     margin-top: 30px !important;
 }
+.social-icon i{
+    font-size: 13px;
+}
 .social-icon a{
     width: 35px;
     height: 35px;
@@ -128,4 +136,5 @@ nav .container {
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
+    margin-top: 20px;
 }
