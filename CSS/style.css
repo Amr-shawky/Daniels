@@ -613,3 +613,14 @@ nav .container {
   --bs-text-opacity: 1;
   color: rgba(255, 255, 255, 0.8) !important;
 }
+
+footer {
+    background: #1c1c1c;
+    padding: 14px 30px;
+}
+footer p{
+    font-size: 13px;
+    color:RGB(116, 129, 130);
+    margin-top: 20px !important;
+    word-spacing: 2px;
+}
