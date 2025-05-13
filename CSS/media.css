@@ -136,7 +136,7 @@
     .header-text span::after {
         font-size: 2rem;
     }
-    .collapse:not(.show) {
+        .collapse:not(.show) {
         display: none;
     }
 
@@ -148,23 +148,21 @@
 
     .navbar-expand-lg .navbar-toggler {
         display: block !important;
+        color: white !important;
     }
 
     .navbar-expand-lg .navbar-nav {
-        flex-direction: column;
+        flex-direction: column !important;
         align-items: center;
         flex-basis: 100% !important;
         flex-grow: 1 !important;
+        background-color: white !important;
+        padding-inline: 20px !important;
     }
 
-    .navbar-expand-lg .navbar-nav:last-child::before {
-        content: "";
-        display: block;
-        width: 100%;
-        height: 1px;
-        background-color: #000;
-        margin-bottom: 10px;
-        margin-top: 10px;
+    .navbar-nav .nav-item .nav-link{
+        color: #000 !important;
+        padding-top: 20px !important;
     }
 
     .collapse:not(.show) {
