@@ -30,28 +30,28 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-xl-385 m-md-auto   ms-auto mb-lg-0 ">
                     <li class="nav-item   pe-lg-4  ">
-                        <a class="nav-link   active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link  active" href="#home">Home</a>
                     </li>
                     <li class="nav-item   pe-lg-4  ">
-                        <a class="nav-link  text-capitalize" href="#">about</a>
+                        <a class="nav-link  text-capitalize" href="#about">about</a>
                     </li>
                     <li class="nav-item   pe-lg-4  ">
-                        <a class="nav-link  text-capitalize" href="#">services</a>
+                        <a class="nav-link  text-capitalize" href="#services">services</a>
                     </li>
                     <li class="nav-item   pe-lg-4  ">
-                        <a class="nav-link  text-capitalize" href="#">works</a>
-                    </li>
-
-                    <li class="nav-item   pe-lg-4  ">
-                        <a class="nav-link  text-capitalize" href="#">clients</a>
+                        <a class="nav-link  text-capitalize" href="#works">works</a>
                     </li>
 
                     <li class="nav-item   pe-lg-4  ">
-                        <a class="nav-link  text-capitalize" href="#">team</a>
+                        <a class="nav-link  text-capitalize" href="#clients">clients</a>
+                    </li>
+
+                    <li class="nav-item   pe-lg-4  ">
+                        <a class="nav-link  text-capitalize" href="#team">team</a>
                     </li>
 
                     <li class="nav-item   pe-lg-4">
-                        <a class="nav-link  text-capitalize" href="#">contact</a>
+                        <a class="nav-link  text-capitalize" href="#contact">contact</a>
                     </li>
                 </ul>
             </div>
@@ -251,24 +251,365 @@
                 <div class="section-head text-center ">
                     <h3 class="fs-1 d-inline-block position-relative z-2">Portfolio.</h3>
                 </div>
-                <div class="row g-4 row-cols-lg-3 row-cols-1">
-                    <div class="col">
-                        <div class="item">
-                            <img src="./Assets/imgs/hero.jpg" alt="">
+                <ul class="nav nav-pills d-flex justify-content-center pb-5" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all"
+                            aria-selected="true">All</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-Brand-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-Brand" type="button" role="tab" aria-controls="pills-Brand"
+                            aria-selected="false">Brand</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-Design-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-Design" type="button" role="tab" aria-controls="pills-Design"
+                            aria-selected="false">Design</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-Graphic-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-Graphic" type="button" role="tab" aria-controls="pills-Graphic"
+                            aria-selected="false">Graphic</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-all" role="tabpanel"
+                        aria-labelledby="pills-all-tab" tabindex="0">
+                        <div class="row row-cols-3 g-4">
+                            <div class="col">
+                                <div class="item position-relative">
+                                    <img src="./Assets/imgs/portfolio/1.jpg" class="w-100" alt="#">
+                                    <div class="overlay-info v-middle text-center">
+                                        <h6 class="sm-titl">WEB DESIGN</h6>
+                                        <div class="icons">
+                                            <span class="d-inline-block">
+                                                <a class="icon30 bg-black border border-1 border-black rounded-circle
+                                                text-white text-decoration-none d-flex justify-content-center align-items-center"
+                                                    href="#0">
+                                                    <i class="fs-13 fa fa-chain-broken" aria-hidden="true"></i>
+                                                </a>
+                                            </span>
+                                            <span class="d-inline-block">
+                                                <a class="icon30 bg-black border border-1 border-black rounded-circle
+                                                text-white text-decoration-none d-flex justify-content-center align-items-center"
+                                                    href="#0">
+                                                    <i class="fs-13 fa fa-search-plus" aria-hidden="true"></i>
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="item position-relative">
+                                    <img src="./Assets/imgs/portfolio/2.jpg" class="w-100" alt="#">
+                                    <div class="overlay-info v-middle text-center">
+                                        <h6 class="sm-titl">WEB DESIGN</h6>
+                                        <div class="icons">
+                                            <span class="d-inline-block">
+                                                <a class="icon30 bg-black border border-1 border-black rounded-circle
+                                                text-white text-decoration-none d-flex justify-content-center align-items-center"
+                                                    href="#0">
+                                                    <i class="fs-13 fa fa-chain-broken" aria-hidden="true"></i>
+                                                </a>
+                                            </span>
+                                            <span class="d-inline-block">
+                                                <a class="icon30 bg-black border border-1 border-black rounded-circle
+                                                text-white text-decoration-none d-flex justify-content-center align-items-center"
+                                                    href="#0">
+                                                    <i class="fs-13 fa fa-search-plus" aria-hidden="true"></i>
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="item position-relative">
+                                    <img src="./Assets/imgs/portfolio/3.jpg" class="w-100" alt="#">
+                                    <div class="overlay-info v-middle text-center">
+                                        <h6 class="sm-titl">WEB DESIGN</h6>
+                                        <div class="icons">
+                                            <span class="d-inline-block">
+                                                <a class="icon30 bg-black border border-1 border-black rounded-circle
+                                                text-white text-decoration-none d-flex justify-content-center align-items-center"
+                                                    href="#0">
+                                                    <i class="fs-13 fa fa-chain-broken" aria-hidden="true"></i>
+                                                </a>
+                                            </span>
+                                            <span class="d-inline-block">
+                                                <a class="icon30 bg-black border border-1 border-black rounded-circle
+                                                text-white text-decoration-none d-flex justify-content-center align-items-center"
+                                                    href="#0">
+                                                    <i class="fs-13 fa fa-search-plus" aria-hidden="true"></i>
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="item position-relative">
+                                    <img src="./Assets/imgs/portfolio/4.jpg" class="w-100" alt="#">
+                                    <div class="overlay-info v-middle text-center">
+                                        <h6 class="sm-titl">WEB DESIGN</h6>
+                                        <div class="icons">
+                                            <span class="d-inline-block">
+                                                <a class="icon30 bg-black border border-1 border-black rounded-circle
+                                                text-white text-decoration-none d-flex justify-content-center align-items-center"
+                                                    href="#0">
+                                                    <i class="fs-13 fa fa-chain-broken" aria-hidden="true"></i>
+                                                </a>
+                                            </span>
+                                            <span class="d-inline-block">
+                                                <a class="icon30 bg-black border border-1 border-black rounded-circle
+                                                text-white text-decoration-none d-flex justify-content-center align-items-center"
+                                                    href="#0">
+                                                    <i class="fs-13 fa fa-search-plus" aria-hidden="true"></i>
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="item position-relative">
+                                    <img src="./Assets/imgs/portfolio/5.jpg" class="w-100" alt="#">
+                                    <div class="overlay-info v-middle text-center">
+                                        <h6 class="sm-titl">WEB DESIGN</h6>
+                                        <div class="icons">
+                                            <span class="d-inline-block">
+                                                <a class="icon30 bg-black border border-1 border-black rounded-circle
+                                                text-white text-decoration-none d-flex justify-content-center align-items-center"
+                                                    href="#0">
+                                                    <i class="fs-13 fa fa-chain-broken" aria-hidden="true"></i>
+                                                </a>
+                                            </span>
+                                            <span class="d-inline-block">
+                                                <a class="icon30 bg-black border border-1 border-black rounded-circle
+                                                text-white text-decoration-none d-flex justify-content-center align-items-center"
+                                                    href="#0">
+                                                    <i class="fs-13 fa fa-search-plus" aria-hidden="true"></i>
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="item position-relative">
+                                    <img src="./Assets/imgs/portfolio/6.jpg" class="w-100" alt="#">
+                                    <div class="overlay-info v-middle text-center">
+                                        <h6 class="sm-titl">WEB DESIGN</h6>
+                                        <div class="icons">
+                                            <span class="d-inline-block">
+                                                <a class="icon30 bg-black border border-1 border-black rounded-circle
+                                                text-white text-decoration-none d-flex justify-content-center align-items-center"
+                                                    href="#0">
+                                                    <i class="fs-13 fa fa-chain-broken" aria-hidden="true"></i>
+                                                </a>
+                                            </span>
+                                            <span class="d-inline-block">
+                                                <a class="icon30 bg-black border border-1 border-black rounded-circle
+                                                text-white text-decoration-none d-flex justify-content-center align-items-center"
+                                                    href="#0">
+                                                    <i class="fs-13 fa fa-search-plus" aria-hidden="true"></i>
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="item">
-                            <img src="./Assets/imgs/hero.jpg" alt="">
+                    <div class="tab-pane fade" id="pills-Brand" role="tabpanel" aria-labelledby="pills-Brand-tab"
+                        tabindex="0">
+                        <div class="row row-cols-3 g-4">
+                            <div class="col">
+                                <div class="item position-relative">
+                                    <img src="./Assets/imgs/portfolio/4.jpg" class="w-100" alt="#">
+                                    <div class="overlay-info v-middle text-center">
+                                        <h6 class="sm-titl">WEB DESIGN</h6>
+                                        <div class="icons">
+                                            <span class="d-inline-block">
+                                                <a class="icon30 bg-black border border-1 border-black rounded-circle
+                                                text-white text-decoration-none d-flex justify-content-center align-items-center"
+                                                    href="#0">
+                                                    <i class="fs-13 fa fa-chain-broken" aria-hidden="true"></i>
+                                                </a>
+                                            </span>
+                                            <span class="d-inline-block">
+                                                <a class="icon30 bg-black border border-1 border-black rounded-circle
+                                                text-white text-decoration-none d-flex justify-content-center align-items-center"
+                                                    href="#0">
+                                                    <i class="fs-13 fa fa-search-plus" aria-hidden="true"></i>
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="item position-relative">
+                                    <img src="./Assets/imgs/portfolio/6.jpg" class="w-100" alt="#">
+                                    <div class="overlay-info v-middle text-center">
+                                        <h6 class="sm-titl">WEB DESIGN</h6>
+                                        <div class="icons">
+                                            <span class="d-inline-block">
+                                                <a class="icon30 bg-black border border-1 border-black rounded-circle
+                                                text-white text-decoration-none d-flex justify-content-center align-items-center"
+                                                    href="#0">
+                                                    <i class="fs-13 fa fa-chain-broken" aria-hidden="true"></i>
+                                                </a>
+                                            </span>
+                                            <span class="d-inline-block">
+                                                <a class="icon30 bg-black border border-1 border-black rounded-circle
+                                                text-white text-decoration-none d-flex justify-content-center align-items-center"
+                                                    href="#0">
+                                                    <i class="fs-13 fa fa-search-plus" aria-hidden="true"></i>
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="item">
-                            <img src="./Assets/imgs/hero.jpg" alt="">
+                    <div class="tab-pane fade" id="pills-Design" role="tabpanel" aria-labelledby="pills-Design-tab"
+                        tabindex="0">
+                        <div class="row row-cols-3 g-4">
+                            <div class="col">
+                                <div class="item position-relative">
+                                    <img src="./Assets/imgs/portfolio/2.jpg" class="w-100" alt="#">
+                                    <div class="overlay-info v-middle text-center">
+                                        <h6 class="sm-titl">WEB DESIGN</h6>
+                                        <div class="icons">
+                                            <span class="d-inline-block">
+                                                <a class="icon30 bg-black border border-1 border-black rounded-circle
+                                                text-white text-decoration-none d-flex justify-content-center align-items-center"
+                                                    href="#0">
+                                                    <i class="fs-13 fa fa-chain-broken" aria-hidden="true"></i>
+                                                </a>
+                                            </span>
+                                            <span class="d-inline-block">
+                                                <a class="icon30 bg-black border border-1 border-black rounded-circle
+                                                text-white text-decoration-none d-flex justify-content-center align-items-center"
+                                                    href="#0">
+                                                    <i class="fs-13 fa fa-search-plus" aria-hidden="true"></i>
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="item position-relative">
+                                    <img src="./Assets/imgs/portfolio/5.jpg" class="w-100" alt="#">
+                                    <div class="overlay-info v-middle text-center">
+                                        <h6 class="sm-titl">WEB DESIGN</h6>
+                                        <div class="icons">
+                                            <span class="d-inline-block">
+                                                <a class="icon30 bg-black border border-1 border-black rounded-circle
+                                                text-white text-decoration-none d-flex justify-content-center align-items-center"
+                                                    href="#0">
+                                                    <i class="fs-13 fa fa-chain-broken" aria-hidden="true"></i>
+                                                </a>
+                                            </span>
+                                            <span class="d-inline-block">
+                                                <a class="icon30 bg-black border border-1 border-black rounded-circle
+                                                text-white text-decoration-none d-flex justify-content-center align-items-center"
+                                                    href="#0">
+                                                    <i class="fs-13 fa fa-search-plus" aria-hidden="true"></i>
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-Graphic" role="tabpanel" aria-labelledby="pills-Graphic-tab"
+                        tabindex="0">
+                        <div class="row row-cols-3 g-4">
+                            <div class="col">
+                                <div class="item position-relative">
+                                    <img src="./Assets/imgs/portfolio/1.jpg" class="w-100" alt="#">
+                                    <div class="overlay-info v-middle text-center">
+                                        <h6 class="sm-titl">WEB DESIGN</h6>
+                                        <div class="icons">
+                                            <span class="d-inline-block">
+                                                <a class="icon30 bg-black border border-1 border-black rounded-circle
+                                                text-white text-decoration-none d-flex justify-content-center align-items-center"
+                                                    href="#0">
+                                                    <i class="fs-13 fa fa-chain-broken" aria-hidden="true"></i>
+                                                </a>
+                                            </span>
+                                            <span class="d-inline-block">
+                                                <a class="icon30 bg-black border border-1 border-black rounded-circle
+                                                text-white text-decoration-none d-flex justify-content-center align-items-center"
+                                                    href="#0">
+                                                    <i class="fs-13 fa fa-search-plus" aria-hidden="true"></i>
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="item position-relative">
+                                    <img src="./Assets/imgs/portfolio/3.jpg" class="w-100" alt="#">
+                                    <div class="overlay-info v-middle text-center">
+                                        <h6 class="sm-titl">WEB DESIGN</h6>
+                                        <div class="icons">
+                                            <span class="d-inline-block">
+                                                <a class="icon30 bg-black border border-1 border-black rounded-circle
+                                                text-white text-decoration-none d-flex justify-content-center align-items-center"
+                                                    href="#0">
+                                                    <i class="fs-13 fa fa-chain-broken" aria-hidden="true"></i>
+                                                </a>
+                                            </span>
+                                            <span class="d-inline-block">
+                                                <a class="icon30 bg-black border border-1 border-black rounded-circle
+                                                text-white text-decoration-none d-flex justify-content-center align-items-center"
+                                                    href="#0">
+                                                    <i class="fs-13 fa fa-search-plus" aria-hidden="true"></i>
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="item position-relative">
+                                    <img src="./Assets/imgs/portfolio/5.jpg" class="w-100" alt="#">
+                                    <div class="overlay-info v-middle text-center">
+                                        <h6 class="sm-titl">WEB DESIGN</h6>
+                                        <div class="icons">
+                                            <span class="d-inline-block">
+                                                <a class="icon30 bg-black border border-1 border-black rounded-circle
+                                                text-white text-decoration-none d-flex justify-content-center align-items-center"
+                                                    href="#0">
+                                                    <i class="fs-13 fa fa-chain-broken" aria-hidden="true"></i>
+                                                </a>
+                                            </span>
+                                            <span class="d-inline-block">
+                                                <a class="icon30 bg-black border border-1 border-black rounded-circle
+                                                text-white text-decoration-none d-flex justify-content-center align-items-center"
+                                                    href="#0">
+                                                    <i class="fs-13 fa fa-search-plus" aria-hidden="true"></i>
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+        <!-- end of works section -->
     </main>
 
     <script src="./JS/bootstrap.bundle.min.js"></script>

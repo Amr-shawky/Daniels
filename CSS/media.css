@@ -16,9 +16,7 @@
     .navbar-nav .nav-item:last-child {
         padding-right: 0px !important;
     }
-      nav .container,nav .container-lg,nav .container-md,nav .container-sm,nav .container-xl {
-        max-width: 665px;
-    }
+
 
 }
 

@@ -6,7 +6,7 @@ window.addEventListener("scroll", function () {
     let container = document.querySelector(".navbar .container");
     const endOfHome = homeSection.offsetTop + homeSection.offsetHeight;
 
-    if (window.scrollY > endOfHome) {
+    if (window.scrollY > endOfHome -90) {
         navbar.classList.add("scrolled");
         navlinks.forEach(link => {
             link.classList.add("scrolled-link");

@@ -2,10 +2,12 @@
     font-family: "arvoo";
     src: url(../fonts/Arvo-Bold.ttf);
 }
+
 @font-face {
     font-family: "Montserrat-Black";
     src: url(../fonts/Montserrat-Black.ttf);
 }
+
 @font-face {
     font-family: "montserrat-ExtraBold";
     src: url(../fonts/Montserrat-ExtraBold.ttf);
@@ -28,14 +30,22 @@
     --bs-navbar-active-color: RGB(17, 17, 17);
     --bs-navbar-active-color-hover: RGB(17, 17, 17);
 }
-h1, h2, h3, h4, h5, h6, .logo {
-    font-family: "Montserrat", sans-serif ;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.logo {
+    font-family: "Montserrat", sans-serif;
 }
 
 nav {
     background-color: white;
 }
-nav .container{
+
+nav .container {
     max-width: 300px !important;
 }
 
@@ -60,7 +70,7 @@ nav .container{
 .nav-link {
     font-size: 15px;
     font-weight: 500 !important;
-    color: RGB(17, 17, 17) ;
+    color: RGB(17, 17, 17);
 }
 
 
@@ -78,18 +88,21 @@ nav {
 }
 
 .nav-item .nav-link {
-    color: white ;
+    color: white;
     letter-spacing: 1px;
 }
+
 .nav-item .nav-link.active {
-    color: white ;
+    color: white;
 }
+
 .nav-item .nav-link:hover {
-    color: white ;
+    color: white;
+    cursor: pointer;
 }
 
 nav .container {
-    margin-block: 24px ;
+    margin-block: 24px;
     margin-left: 90px !important;
     transition: all 0.5s;
 }
@@ -234,17 +247,21 @@ nav .container {
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
 }
+
 .opacity-95 {
     opacity: 0.90;
 }
+
 #services {
     padding-block: 100px;
 }
-.section-head{
-        margin-bottom: 80px;
-        text-align: center;
+
+.section-head {
+    margin-bottom: 80px;
+    text-align: center;
 }
-.section-head h3::after{
+
+.section-head h3::after {
     content: "";
     width: 100%;
     height: 30px;
@@ -255,7 +272,8 @@ nav .container {
     left: 0;
     z-index: -1;
 }
-.section-head h3{
+
+.section-head h3 {
     font-family: "Montserrat-Black";
     font-size: 40px;
     color: RGB(52, 52, 52);
@@ -263,7 +281,8 @@ nav .container {
     line-height: 33px;
     letter-spacing: 1px;
 }
-.services .icon{
+
+.services .icon {
     width: 70px;
     height: 70px;
     font-size: 30px;
@@ -271,35 +290,107 @@ nav .container {
     line-height: 70px;
     background: rgb(244, 244, 244);
 }
+
 .services .item h6 {
     margin-bottom: 15px;
     font-weight: 800;
     font-size: 18px;
 }
-.services .item{
-        box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
+
+.services .item {
+    box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
 }
 
 #works {
     padding-block: 100px;
 }
-.scrolled{
+
+.scrolled {
     background-color: #fff !important;
     margin-top: 0px !important;
 }
-.scrolled-link{
+
+.scrolled-link {
     color: RGB(17, 17, 17) !important;
 }
+
 .nav-link .active {
     color: RGB(17, 17, 17) !important;
 }
-.scrolled-container{
+
+.scrolled-container {
     margin-block: 0px !important;
 
 }
+
 .scrolled .logo {
     color: RGB(17, 17, 17) !important;
 }
-.scrolled-remove{
+
+.scrolled-remove {
     display: none !important;
+}
+
+.works .item:hover::after {
+    opacity: 1;
+}
+
+.works .item::after {
+    content: "";
+    display: block;
+    width: 97%;
+    height: 96%;
+    position: absolute;
+    top: 6px;
+    left: 5px;
+    background-color: white;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.v-middle {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translate(0%, -50%);
+    -moz-transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    -o-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+}
+
+.icon30 {
+    width: 30px;
+    height: 30px;
+}
+
+.fs-14 {
+    font-size: 14px !important;
+}
+
+.works .item h6 {
+    opacity: 0;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    position: relative;
+    margin-bottom: 15px;
+    transform: translateY(-15px);
+    transition: all 0.5s ease-in-out;
+    font-family: "montserrat-Bold";
+}
+
+.works .item .icons {
+    transform: translateY(15px);
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.item:hover h6,
+.item:hover .icons {
+    transform: translateY(0px);
+    opacity: 1;
 }
