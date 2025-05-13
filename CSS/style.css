@@ -394,3 +394,35 @@ nav .container {
     transform: translateY(0px);
     opacity: 1;
 }
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    width: 95%;
+    display:inline;
+    padding-inline: 0px !important;
+    font-family: "montserrat-Bold";
+}
+.nav-pills .nav-link {
+    font-family: "montserrat-Bold";
+
+}
+
+.nav-pills .nav-link.active::after {
+    content: "";
+    width: 95%;
+    height: 2px;
+    background: #111;
+    position: absolute;
+    left: 0;
+    display: inline;
+    bottom: -5px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    z-index: 10;
+}
+#pills-tab{
+    transition: all 0.5s ease-in-out;
+}
