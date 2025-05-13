@@ -4,7 +4,7 @@
 }
 
 @font-face {
-    font-family: "montserrat";
+    font-family: "montserrat-ExtraBold";
     src: url(../fonts/Montserrat-ExtraBold.ttf);
     font-weight: 900;
 }
@@ -39,7 +39,7 @@ nav {
 }
 
 .logo {
-    font-family: "montserrat";
+    font-family: "montserrat-ExtraBold";
     font-size: 18px;
     font-weight: 300;
     color: #000;
@@ -87,7 +87,7 @@ nav .container {
 }
 
 .header-text h5 {
-    font-family: "montserrat";
+    font-family: "montserrat-ExtraBold";
     font-size: 50px;
     font-weight: 800;
     color: #fff;
@@ -137,4 +137,27 @@ nav .container {
     align-items: center;
     flex-wrap: nowrap;
     margin-top: 20px;
+}
+#about{
+    padding-block: 100px;
+}
+.ps-30{
+    padding-left: 30px !important;
+}
+.mb-30 {
+    margin-bottom: 30px !important;
+}
+#about .hero-img:after {
+    content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 0px;
+    bottom: -30px;
+    background-image: url(../Assets/imgs/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+.bg-progress{
+    background-color: RGB(28, 28, 28) !important;
 }
