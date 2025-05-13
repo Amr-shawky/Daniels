@@ -827,12 +827,81 @@
         <!-- end of team section -->
         <!-- start of contact section -->
         <section class="contact bg-white" id="contact">
-            <div class="container-md container-sm-fluid container-lg px-sm-4">
+            <div class="container-md-fluid container-sm-fluid container-lg  px-sm-4">
                 <div class="section-head text-center ">
                     <h3 class="fs-1 d-inline-block position-relative z-2">Contact Us.</h3>
                 </div>
+                <div class="m-auto col-md-10">
+                    <!-- contact info -->
+                    <div
+                        class="g-3 row-cols-lg-3 row-cols-1 row-cols-md-1 info text-center mb-50 d-flex flex-column justify-content-center align-items-center flex-lg-row justify-content-lg-evenly flex-md-column justify-content-md-center">
+                        <div class="col">
+                            <div class="item">
+                                <span style="width: 60px; height: 60px;"
+                                    class="m-auto d-flex justify-content-center align-items-center icon bg-body-tertiary rounded-circle"><i
+                                        class="fs-4 fa fa-location-arrow" aria-hidden="true"></i></span>
+                                <h6 class="mt-3 mb-2">Address</h6>
+                                <p>6834 Hollywood Blvd - Los Angeles CA</p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="item">
+                                <span style="width: 60px; height: 60px;"
+                                    class="m-auto d-flex justify-content-center align-items-center icon bg-body-tertiary rounded-circle"><i
+                                        class="fs-4 fa fa-envelope" aria-hidden="true"></i></span>
+                                <h6 class="mt-3 mb-2">Email</h6>
+                                <p>Support@website.com</p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="item">
+                                <span style="width: 60px; height: 60px;"
+                                    class="m-auto d-flex justify-content-center align-items-center icon bg-body-tertiary rounded-circle"><i
+                                        class="fs-4 fa fa-phone" aria-hidden="true"></i></span>
+                                <h6 class="mt-3 mb-2">Phone</h6>
+                                <p>+20 010 2517 8918</p>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <!-- contact form  -->
+                    <form class="form" id="contact-form" method="post" action="contact.php" novalidate="true">
+                        <div class="control">
+                            <div class="row row-cols-lg-2 row-cols-1 row-cols-md-1 mb-3 g-3">
+                                <div class="col">
+                                    <div class="form-group ">
+                                        <input id="form_name" class="w-100 bg-body-tertiary border-0 py-2 rounded-2 px-2"  type="text" name="name" placeholder="Name"
+                                            required="required">
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="form-group ">
+                                        <input id="form_email" class="w-100 bg-body-tertiary border-0 py-2 rounded-2 px-2"  type="email" name="email" placeholder="Email"
+                                            required="required">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group has-error has-danger mb-3">
+                                        <textarea id="form_message" class="w-100 bg-body-tertiary border-0 py-2 rounded-2 px-2" name="message" placeholder="Message" rows="4"
+                                            required="required"></textarea>
+                                    </div>
+
+                                    <input type="submit" value="Submit" class="buton disabled text-white-80 bg-black border-0 ">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
         </section>
+        <!-- end of contact section -->
+        <!-- start of footer section -->
+         
 
     </main>
 

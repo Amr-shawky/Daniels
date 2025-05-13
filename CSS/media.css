@@ -27,7 +27,9 @@
         display: flex !important;
         flex-basis: auto !important;
     }
-
+    .col-md-offset-1 {
+        margin-left: 8.33333333%;
+    }
     .navbar-expand-lg .navbar-toggler {
         display: none !important;
     }

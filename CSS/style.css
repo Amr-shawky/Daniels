@@ -570,3 +570,46 @@ nav .container {
 .fs-10{
     font-size: 10px !important;
 }
+
+
+#contact{
+    padding-block: 100px;
+}
+
+
+.ms-contact{
+    margin-left: 100px !important;
+}
+
+#contact .col .item h6{
+    font-family: "montserrat-Bold";
+    font-size: 16px;
+    margin: 0px 0px 5px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+}
+#contact .col .item p{
+    font-family: "montserrat-Medium";
+    font-size: 14px;
+    margin: 0px 0px 5px;
+    line-height: 35px;
+    letter-spacing: 0.5px;
+    color: RGB(136, 136, 136);
+}
+
+.mb-50{
+    margin-bottom: 50px !important;
+}
+.contact .form textarea {
+    height: 160px;
+    max-height: 160px;
+    max-width: 100%;
+}
+
+.contact .form .buton {
+    padding: 10px 40px;
+}
+.text-white-80{
+  --bs-text-opacity: 1;
+  color: rgba(255, 255, 255, 0.8) !important;
+}
