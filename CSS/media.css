@@ -17,7 +17,9 @@
         padding-right: 0px !important;
     }
 
-
+    #carouselExampleIndicators .carousel-inner .testimonial-box{
+        width: 83% !important;
+    }
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
@@ -44,6 +46,9 @@
 
     .navbar-expand-lg .navbar-nav> :first-child .nav-link {
         padding-left: 0px !important;
+    }
+    #carouselExampleIndicators .carousel-inner .testimonial-box{
+        width: 95% !important;
     }
 
 }
@@ -83,5 +88,8 @@
 
     .collapse:not(.show) {
         display: none !important;
+    }
+        #carouselExampleIndicators .carousel-inner .testimonial-box{
+        width: 100% !important;
     }
 }
