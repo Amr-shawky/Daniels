@@ -54,9 +54,11 @@ h6,
 nav {
     background-color: white;
 }
-
-nav .container {
-    max-width: 300px !important;
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex !important;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between !important;
 }
 
 .navbar-toggler-icon {
@@ -112,8 +114,8 @@ nav {
 }
 
 nav .container {
+    margin-left: 90px ;
     margin-block: 24px;
-    margin-left: 90px !important;
     transition: all 0.5s;
 }
 
@@ -133,7 +135,6 @@ nav .container {
 
 .header-text span {
     font-family: "montserrat-light";
-    font-size: 60px;
     font-weight: 100;
     padding: 10px 0;
     color: #fff;
@@ -145,8 +146,7 @@ nav .container {
     content: "";
     display: inline-block;
     margin-left: 5px;
-    font-family: "montserrat-light";
-    font-size: 60px;
+    font-family: "montserrat-Medium";
     font-weight: 100;
     color: #fff;
     line-height: 72px;
@@ -159,7 +159,7 @@ nav .container {
 }
 
 .social-icon {
-    margin-top: 30px !important;
+    margin-top: 30px ;
 }
 
 .social-icon i {
