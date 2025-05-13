@@ -8,6 +8,7 @@
     src: url(../fonts/Montserrat-ExtraBold.ttf);
     font-weight: 900;
 }
+
 @font-face {
     font-family: "montserrat-bold";
     src: url(../fonts/Montserrat-Bold.ttf);
@@ -122,13 +123,16 @@ nav .container {
     animation-direction: normal;
 
 }
-.social-icon{
+
+.social-icon {
     margin-top: 30px !important;
 }
-.social-icon i{
+
+.social-icon i {
     font-size: 13px;
 }
-.social-icon a{
+
+.social-icon a {
     width: 35px;
     height: 35px;
     background-color: RGBA(0, 0, 0, 0.3);
@@ -138,15 +142,19 @@ nav .container {
     flex-wrap: nowrap;
     margin-top: 20px;
 }
-#about{
+
+#about {
     padding-block: 100px;
 }
-.ps-30{
+
+.ps-30 {
     padding-left: 30px !important;
 }
+
 .mb-30 {
     margin-bottom: 30px !important;
 }
+
 #about .hero-img:after {
     content: "";
     width: 80%;
@@ -158,6 +166,63 @@ nav .container {
     background-repeat: repeat;
     z-index: -1;
 }
-.bg-progress{
+
+.bg-progress {
     background-color: RGB(28, 28, 28) !important;
+}
+
+.bg-progress-bar {
+    background-color: #f7f7f7;
+}
+
+.skills h6 {
+    font-size: 13px;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+.progress {
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
+}
+
+.mt-6px {
+    margin-top: 6px !important;
+}
+
+.header-title {
+    font-family: "montserrat-ExtraBold";
+    font-size: 30px;
+    font-weight: 800;
+    color: RGB(52, 52, 52);
+    margin: 0px 0px 5px;
+    line-height: 33px;
+    letter-spacing: 1px;
+}
+
+.text-secondary2 {
+    color: RGB(153, 153, 153) !important;
+}
+
+.sub-title {
+    letter-spacing: 2px;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.fs-13 {
+    font-size: 13px !important;
+}
+
+.buton {
+    padding: 10px 30px;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    font-size: 13px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.opacity-95 {
+    opacity: 0.90;
 }
