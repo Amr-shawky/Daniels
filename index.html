@@ -14,9 +14,9 @@
 
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navId">
     <!-- nav bar  -->
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav id="navId" class="navbar navbar-expand-lg fixed-top">
         <div class="container-md container-sm-fluid container d-flex justify-content-between">
             <a class="navbar-brand pe-5 text-uppercase logo align-self-start mb-lg-3 mb-0" href="#">Daniels</a>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
@@ -29,29 +29,29 @@
             </button>
             <div class="collapse navbar-collapse ms-auto d-flex justify-content-end " id="navbarSupportedContent">
                 <ul class="navbar-nav ms-xl-385  ">
-                    <li class="nav-item   pe-lg-4  ">
-                        <a class="nav-link  active" href="#home">Home</a>
+                    <li class="nav-item position-relative  pe-lg-4  ">
+                        <a class="nav-link position-relative active" href="#home">Home</a>
                     </li>
-                    <li class="nav-item   pe-lg-4  ">
-                        <a class="nav-link  text-capitalize" href="#about">about</a>
+                    <li class="nav-item  position-relative pe-lg-4  ">
+                        <a class="nav-link position-relative text-capitalize" href="#about">about</a>
                     </li>
-                    <li class="nav-item   pe-lg-4  ">
-                        <a class="nav-link  text-capitalize" href="#services">services</a>
+                    <li class="nav-item  position-relative pe-lg-4  ">
+                        <a class="nav-link position-relative text-capitalize" href="#services">services</a>
                     </li>
-                    <li class="nav-item   pe-lg-4  ">
-                        <a class="nav-link  text-capitalize" href="#works">works</a>
-                    </li>
-
-                    <li class="nav-item   pe-lg-4  ">
-                        <a class="nav-link  text-capitalize" href="#clients">clients</a>
+                    <li class="nav-item  position-relative pe-lg-4  ">
+                        <a class="nav-link position-relative  text-capitalize" href="#works">works</a>
                     </li>
 
-                    <li class="nav-item   pe-lg-4  ">
-                        <a class="nav-link  text-capitalize" href="#team">team</a>
+                    <li class="nav-item  position-relative pe-lg-4  ">
+                        <a class="nav-link position-relative  text-capitalize" href="#clients">clients</a>
                     </li>
 
-                    <li class="nav-item   pe-lg-4">
-                        <a class="nav-link  text-capitalize" href="#contact">contact</a>
+                    <li class="nav-item  position-relative pe-lg-4  ">
+                        <a class="nav-link position-relative  text-capitalize" href="#team">team</a>
+                    </li>
+
+                    <li class="nav-item  position-relative pe-lg-4">
+                        <a class="nav-link position-relative  text-capitalize" href="#contact">contact</a>
                     </li>
                 </ul>
             </div>
@@ -171,7 +171,7 @@
                             <div
                                 class="py-5 px-4 border-0 card d-flex justify-content-center align-items-center text-center flex-column">
                                 <span class="icon rounded-circle d-flex justify-content-center align-items-center">
-                                    <i class=" fa-solid fa-laptop-code"></i>
+                                    <i class=" fa-solid fa-bullhorn"></i>
                                 </span>
                                 <h6>Web Design</h6>
                                 <p class="text-secondary">
@@ -186,7 +186,7 @@
                             <div
                                 class="py-5 px-4 border-0 card d-flex justify-content-center align-items-center text-center flex-column">
                                 <span class="icon rounded-circle d-flex justify-content-center align-items-center">
-                                    <i class=" fa-solid fa-laptop-code"></i>
+                                    <i class=" fa-solid fa-umbrella"></i>
                                 </span>
                                 <h6>Web Design</h6>
                                 <p class="text-secondary">
@@ -201,7 +201,7 @@
                             <div
                                 class="py-5 px-4 border-0 card d-flex justify-content-center align-items-center text-center flex-column">
                                 <span class="icon rounded-circle d-flex justify-content-center align-items-center">
-                                    <i class=" fa-solid fa-laptop-code"></i>
+                                    <i class=" fa-solid fa-gem"></i>
                                 </span>
                                 <h6>Web Design</h6>
                                 <p class="text-secondary">
@@ -216,7 +216,7 @@
                             <div
                                 class="py-5 px-4 border-0 card d-flex justify-content-center align-items-center text-center flex-column">
                                 <span class="icon rounded-circle d-flex justify-content-center align-items-center">
-                                    <i class=" fa-solid fa-laptop-code"></i>
+                                    <i class=" fa-solid fa-television"></i>
                                 </span>
                                 <h6>Web Design</h6>
                                 <p class="text-secondary">
@@ -231,7 +231,7 @@
                             <div
                                 class="py-5 px-4 border-0 card d-flex justify-content-center align-items-center text-center flex-column">
                                 <span class="icon rounded-circle d-flex justify-content-center align-items-center">
-                                    <i class=" fa-solid fa-laptop-code"></i>
+                                    <i class=" fa-solid fa-camera"></i>
                                 </span>
                                 <h6>Web Design</h6>
                                 <p class="text-secondary">
@@ -273,7 +273,7 @@
                             aria-selected="false">Graphic</button>
                     </li>
                 </ul>
-                <div class="tab-content" id="pills-tabContent">
+                <div class="tab-content" id="pills-tabContent" >
                     <div class="tab-pane fade show active" id="pills-all" role="tabpanel"
                         aria-labelledby="pills-all-tab" tabindex="0">
                         <div class="row row-cols-lg-3 g-4 row-cols-md-2 row-cols-sm-1">
@@ -617,7 +617,7 @@
                     <h3 class="fs-1 d-inline-block position-relative z-2">Testimonials.</h3>
                 </div>
 
-                <div id="carouselExampleIndicators" class="carousel slide">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1000">
                     <div class="carousel-inner">
                         <div class="carousel-item active ">
                             <div
@@ -637,36 +637,37 @@
                         </div>
                         <div class="carousel-item">
                             <div
-                                class="testimonial-box d-flex flex-column justify-content-center align-items-center text-center ">
-                                <div class="author-test">
+                                class=" m-auto testimonial-box d-flex flex-column justify-content-center align-items-center text-center ">
+                                <div class="carousel-body">
                                     <img src="./Assets/imgs/1_New1.jpg" class="d-block rounded-circle m-auto" alt="..."
                                         style="width: 90px; height: 90px;">
-                                    <p class="text-secondary">
+                                    <p class="text-secondary my-3">
                                         Lorem Ipsum has been the industry's standard dummy text ever
                                         since the when an unknown printer took a galley of type and
                                         scrambled it to make a type specimen book.
                                     </p>
-                                    <h6>Alex Smith</h6>
-                                    <span>Envato Customer</span>
+                                    <h6 class="pt-2">Alex Smith</h6>
+                                    <span class="text-body-secondary">Envato Customer</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item  ">
+                        <div class="carousel-item">
                             <div
-                                class="testimonial-box d-flex flex-column justify-content-center align-items-center text-center ">
-                                <div class="author-test">
+                                class=" m-auto testimonial-box d-flex flex-column justify-content-center align-items-center text-center ">
+                                <div class="carousel-body">
                                     <img src="./Assets/imgs/1_New1.jpg" class="d-block rounded-circle m-auto" alt="..."
                                         style="width: 90px; height: 90px;">
-                                    <p class="text-secondary">
+                                    <p class="text-secondary my-3">
                                         Lorem Ipsum has been the industry's standard dummy text ever
                                         since the when an unknown printer took a galley of type and
                                         scrambled it to make a type specimen book.
                                     </p>
-                                    <h6>Alex Smith</h6>
-                                    <span>Envato Customer</span>
+                                    <h6 class="pt-2">Alex Smith</h6>
+                                    <span class="text-body-secondary">Envato Customer</span>
                                 </div>
                             </div>
                         </div>
+                        
                     </div>
                     <div class="carousel-indicators position-static mt-30">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
