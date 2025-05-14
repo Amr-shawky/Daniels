@@ -660,6 +660,10 @@ header {
 .contact .form .buton {
     padding: 10px 40px;
 }
+.contact .form .buton:hover {
+    background-color: white !important;
+    color: black !important;
+}
 .text-white-80{
   --bs-text-opacity: 1;
   color: rgba(255, 255, 255, 0.8) !important;
