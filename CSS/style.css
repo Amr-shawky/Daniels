@@ -92,6 +92,7 @@ nav {
 
 .nav-item .nav-link.active {
     color: white;
+    transition: all 0.5s;
 }
 .nav-item .nav-link::after{
     width: 0;
