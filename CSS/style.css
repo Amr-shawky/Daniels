@@ -382,6 +382,13 @@ header {
     transition: all 0.5s ease-in-out;
 
 }
+.works .item a{
+    transition: all 0.5s ease-in-out;
+}
+.works .item a:hover{
+    color: black !important;
+    background-color: white !important;
+}
 
 .v-middle {
     position: absolute;
@@ -591,6 +598,18 @@ header {
     transform: translate(-50%, -50%);
     opacity: 1;
 }
+#team .card ul li a{
+    transition: all 0.5s;
+}
+#team .card ul li a i{
+    transition: all 0.5s;
+}
+#team .card ul li a:hover{
+    background-color: white !important;
+}
+#team .card ul li a:hover i{
+        color: black !important;
+}
 .fs-10{
     font-size: 10px !important;
 }
@@ -611,6 +630,14 @@ header {
     margin: 0px 0px 5px;
     line-height: 18px;
     letter-spacing: 0.5px;
+}
+#contact .col .item span{
+    transition: all 0.5s;
+
+}
+#contact .col .item span:hover{
+    color: white !important;
+    background-color: black !important;
 }
 #contact .col .item p{
     font-family: "montserrat-Medium";
