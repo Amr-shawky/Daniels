@@ -286,6 +286,14 @@ header {
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
 }
+/* .content .buton a:nth-child(1):hover{
+    background-color:red !important;
+    color: #fff !important;
+}
+.contact .buton a:nth-child(2):hover{
+    background-color: #fff !important;
+    color: black !important;
+} */
 
 .opacity-95 {
     opacity: 0.90;
